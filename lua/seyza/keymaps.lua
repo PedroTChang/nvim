@@ -86,4 +86,5 @@ keymap("n", "<leader>gg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", opts)
 keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
 keymap("n", "<leader>/", "<cmd>lua require('Comment.api').toggle.linewise()<CR>", opts)
 keymap("n", "<leader>c", "<cmd>Bdelete!<CR>", opts)
+keymap("n", "<leader>t", "<cmd>ToggleTerm direction=float<cr>", opts)
 return M
