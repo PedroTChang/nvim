@@ -22,4 +22,3 @@ require "seyza.illuminate"
 require "seyza.nvim-webdev-icons"
 require "seyza.lsp"
 require "seyza.bufferline"
---
